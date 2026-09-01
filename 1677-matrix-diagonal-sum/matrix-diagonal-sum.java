@@ -6,9 +6,9 @@ class Solution {
                 sum = sum + mat[i][i];
                 sum = sum + mat[len -1-i][i];
         }
-        if(len%2 !=0){
-            sum = sum - mat[len/2][len/2];
+        if(len%2 ==0){
+            return sum;
         }
-        return sum;
+        return sum = sum - mat[len/2][len/2];
     }
 }
