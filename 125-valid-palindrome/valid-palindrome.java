@@ -3,7 +3,7 @@ class Solution {
        
        String str =s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
        
-       int i =0;
+       
        int Left= 0;
        int right = str.length()-1;
         while(Left < right){
